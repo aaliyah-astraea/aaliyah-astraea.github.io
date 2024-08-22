@@ -1,6 +1,6 @@
 body {
-    background: rgb(44, 14, 116);
-    color: rgb(35, 9, 71);
+    background: rgb(27, 4, 73);
+    color: rgb(255, 255, 255);
     padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
@@ -15,7 +15,7 @@ nav {
     border-radius: 5px;
   }
 nav {
-    background: rgb(149, 55, 197);
+    background: linear-gradient(to bottom right, rgb(12, 0, 43), rgb(154, 76, 227));
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
@@ -47,9 +47,10 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(54, 5, 113);
     display: flex;
     border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
 }
 .sidebar {
     margin-right: 25px;
