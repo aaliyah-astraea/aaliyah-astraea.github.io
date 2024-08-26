@@ -65,8 +65,6 @@ main {
     flex: 1;
     padding: 15px;
 }
-
-/* portfolio styles */
 interests {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 5px;
@@ -76,6 +74,31 @@ interests {
     border-radius: 5px;
     padding: 8px;
 }
+         /* portfolio styles */
+         .content h1 {
+          color: rgb(255, 255, 255);
+      }
+
+      #portfolio {
+          list-style-type: none;
+          padding-left: 0;
+      }
+
+      #portfolio li {
+          background: #1c012f;
+          padding: 10px;
+          border-radius: 10px;
+          margin-bottom: 10px;
+      }
+
+      #portfolio li:hover {
+          background: #eee;
+      }
+
+      #portfolio a {
+          text-decoration: none;
+          color: #9267d2;
+      }
 
 h2, h3 {
     margin: 0px;
