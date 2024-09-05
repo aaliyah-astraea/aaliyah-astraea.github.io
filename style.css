@@ -119,3 +119,8 @@ h2, h3 {
     color: #fff;
     animation: glow 1s ease-in-out infinite alternate;
   }
+  #glowing{
+    font-size: 20px;
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
