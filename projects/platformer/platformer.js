@@ -50,8 +50,10 @@ createPlatform(1050,140,100,10)
 createPlatform(900,195,50,10)
 createPlatform(777,195,50,10)
 createPlatform(550,195,90,10)
-createPlatform(400,190,15,70)
-createPlatform(300,190,15,70)
+createPlatform(400,195,15,70)
+createPlatform(300,195,15,70)
+createPlatform(140,190,100,10)
+
 
 
 
@@ -66,13 +68,14 @@ createPlatform(300,190,15,70)
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
 
-
     
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
+createCannon("right",390,1500,40,40)
+createCannon("left",90,1500,40,40)
 
 
 
