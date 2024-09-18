@@ -45,7 +45,6 @@ createPlatform(680,500,40,10)
 createPlatform(800,400,15,70)
 createPlatform(900,385,15,70)
 createPlatform(1050,260,100,10)
-createPlatform(1360,210,100,10)
 createPlatform(1050,140,100,10)
 createPlatform(900,195,50,10)
 createPlatform(777,195,50,10)
@@ -75,9 +74,9 @@ createCollectable("max",777,150)
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-createCannon("right",390,1700,40,40)
-createCannon("left",90,1700,40,40)
-createCannon("left",660,1700,40,40)
+createCannon("right",410,1700,40,40)
+createCannon("left",60,1700,40,40)
+createCannon("left",660,10,40,40)
 
 
 

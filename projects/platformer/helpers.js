@@ -375,7 +375,7 @@ function deathOfPlayer() {
   );
   ctx.font = "500% serif";
   ctx.fillText(
-    "Hit any key to restart",
+    "try again, bozo",
     canvas.width / 4,
     canvas.height / 6 + canvas.height / 3,
     (canvas.width / 16) * 14
@@ -411,7 +411,7 @@ function playerFrictionAndGravity() {
 
 function drawPlatforms() {
   for (var i = 0; i < platforms.length; i++) {
-    ctx.fillStyle = "grey";
+    ctx.fillStyle = "blue";
     ctx.fillRect(
       platforms[i].x,
       platforms[i].y,

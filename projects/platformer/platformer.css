@@ -3,7 +3,7 @@ body {
 }
 
 canvas {
-  background-color: lightblue;
+  background-image: url("https://cdn.britannica.com/74/182174-050-6755AB49/balloon-sky.jpg") ;
   margin: 20px;
 }
 
