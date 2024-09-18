@@ -75,7 +75,7 @@ createCollectable("max",777,150)
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 createCannon("right",410,1700,40,40)
-createCannon("left",60,1700,40,40)
+createCannon("left",100,1700,40,40)
 createCannon("left",660,10,40,40)
 
 
