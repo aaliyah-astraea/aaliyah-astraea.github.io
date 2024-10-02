@@ -75,10 +75,11 @@
 			it should move the Box to a new location. If the box drifts off the screen
 			turn it around! 
 			*/
-			function update() {
+			function update(speed) {
 								  /* Your Code to Increase positionX by 10 HERE */
-			moveBoxTo(positionX);
 			positionX = positionX + 10;
+			moveBoxTo(positionX);
+			var speed=10;
 		}
 			    
 			/* 
