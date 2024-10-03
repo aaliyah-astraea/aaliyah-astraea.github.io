@@ -68,6 +68,7 @@
 			// TODO 2 - Variable declarations 
 			var positionX = 0;
 			var points = 0;
+			var speed=10;
 
 
 			/* 
@@ -75,13 +76,16 @@
 			it should move the Box to a new location. If the box drifts off the screen
 			turn it around! 
 			*/
-			function update(speed) {
+			function update() {
 								  /* Your Code to Increase positionX by 10 HERE */
-			positionX = positionX + 10;
+			positionX = positionX + speed;
 			moveBoxTo(positionX);
-			var speed=10;
+			
 		}
-			    
+		if (conditionIsTrue)
+		speed = -speed; {
+  // then do X, Y, and Z
+}
 			/* 
 			This Function will be called each time the box is clicked. Each time it is called,
 			it should increase the points total, increase the speed, and move the box to
@@ -90,7 +94,10 @@
 			function handleBoxClick() {
 				positionX = 0;
 				  // your code to increase the points variable by 1
+				  points=points+1;
+				  speed=speed+3;
 				changeBoxText(points);
+				
 			}
 
 
